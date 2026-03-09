@@ -17,8 +17,7 @@ import lombok.*;
 @ToString
 @Builder
 public class Product{
-    @Id
-    @id @GeneratedValue
+    @Id @GeneratedValue
     private Long id;
     @NotEmpty
     @Size(min = 3, max = 50)

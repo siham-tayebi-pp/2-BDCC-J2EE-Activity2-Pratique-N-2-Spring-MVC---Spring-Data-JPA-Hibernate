@@ -14,8 +14,9 @@ public class ActivitPratiqueN2SpringMvcSpringDataJpaHibernateApplication {
         SpringApplication.run(ActivitPratiqueN2SpringMvcSpringDataJpaHibernateApplication.class, args);
     }
     @Bean
-    public CommandLineRunner commandLineRunner( ProductRepository productRepository) {
+    public CommandLineRunner init (ProductRepository productRepository) {
         return args -> {
+//            Aouter des prods dans la bd
             productRepository.save(Product.builder()
                     .name("Computer")
                     .price(5400)
@@ -23,16 +24,16 @@ public class ActivitPratiqueN2SpringMvcSpringDataJpaHibernateApplication {
                     .build());
             productRepository.save(Product.builder()
                     .name("Printer")
-                    .price(1200)
-                    .quantity(11)
+                    .price(120)
+                    .quantity(12)
                     .build());
             productRepository.save(Product.builder()
                     .name("Smart Phone")
                     .price(12000)
-                    .quantity(33)
+                    .quantity(12)
                     .build());
-            productRepository.findAll().forEach(p-> System.out.printf(p.toString()))
-        }
+            productRepository.findAll().forEach(p-> System.out.println(p.toString()));
+        };
     }
 
 }
