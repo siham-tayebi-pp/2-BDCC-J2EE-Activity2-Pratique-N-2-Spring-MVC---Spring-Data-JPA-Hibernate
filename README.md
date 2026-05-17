@@ -1,4 +1,4 @@
-# 📘 TP N°1 - Injection de Dépendances en Java
+# 📘 TP N°2 - Spring MVC - Spring Data JPA, Hibernate
 
 **Filière :** BDCC II (Big Data & Cloud Computing)  
 **Module :** J2EE & Middlewares  
