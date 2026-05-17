@@ -1,3 +1,13 @@
+# 📘 TP N°1 - Injection de Dépendances en Java
+
+**Filière :** BDCC II (Big Data & Cloud Computing)  
+**Module :** J2EE & Middlewares  
+**Réalisé par :** Siham TAYEBI 
+**Encadré par :** Prof Mohamed YOUSSFI
+**Date :** Mai 2026  
+**Institution :** ENSET Mohammedia, Université Hassan II
+
+---
 # Activité Pratique N°2 : Spring MVC - Spring Data JPA, Hibernate
 
 ![img_auth.png](images/img_auth.png)
